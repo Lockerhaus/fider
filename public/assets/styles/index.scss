@@ -19,3 +19,7 @@
 .c-markdown p{line-height:1.65;}
 .c-segment,.c-hint{border-radius:12px !important;}
 .c-button--primary{border-radius:8px !important;}
+
+/* ===== Lockerhaus: titulos en Obviously ===== */
+@font-face{font-family:"Obviously";font-style:normal;font-weight:700;font-display:swap;src:url("./fonts/obviously-bold.woff2") format("woff2");}
+h1,h2,h3,h4,h5,h6,.c-markdown h1,.c-markdown h2,.c-markdown h3{font-family:"Obviously","Poppins",sans-serif !important;}
