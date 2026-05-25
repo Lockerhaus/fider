@@ -5,3 +5,17 @@
 @import "tooltip.scss";
 @include theme($light-colors, '[data-theme="light"]');
 @include theme($dark-colors, '[data-theme="dark"]');
+
+/* ===== Lockerhaus brand: Poppins (self-hosted) ===== */
+@font-face{font-family:"Poppins";font-style:normal;font-weight:400;font-display:swap;src:url("./fonts/poppins-400.woff2") format("woff2");}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:500;font-display:swap;src:url("./fonts/poppins-500.woff2") format("woff2");}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:600;font-display:swap;src:url("./fonts/poppins-600.woff2") format("woff2");}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:700;font-display:swap;src:url("./fonts/poppins-700.woff2") format("woff2");}
+
+/* ===== Lockerhaus layout polish ===== */
+.container{max-width:1140px !important;margin-left:auto !important;margin-right:auto !important;}
+.c-powered{display:none !important;}
+.c-markdown h1,.c-markdown h2,.c-markdown h3{color:#1D263D;font-weight:700;}
+.c-markdown p{line-height:1.65;}
+.c-segment,.c-hint{border-radius:12px !important;}
+.c-button--primary{border-radius:8px !important;}
